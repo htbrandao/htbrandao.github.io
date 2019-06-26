@@ -1,14 +1,7 @@
 .woodTable {
-    background: url('../media/woodTable.jpg') no-repeat center center fixed;
+    background: url("../media/woodTable.jpg") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
-
-  }
-
-.deadCenter {
-    padding: 50%;
-    margin: 50%;
-    
 
   }
