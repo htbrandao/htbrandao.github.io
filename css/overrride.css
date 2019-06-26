@@ -1,7 +1,18 @@
-.woodTable {
+body {
     background: url("../media/woodTable.jpg") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
 
   }
+
+.col {
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 38%;
+}
+
+.border {
+  border: #ffffff 12px;
+}
