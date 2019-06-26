@@ -1,11 +1,6 @@
-# Personal static html page
+TODO:
 
-Single page application:
-
-- No back-end engine, only pure HTML and CSS
-- Using [Bootstrap](https://getbootstrap.com/)
-- Page hosted on [GitLab.com](https://gitlab.com/) and available through it's [guide](https://about.gitlab.com/2016/04/07/gitlab-pages-setup/#add-gitlab-ci)!
-- Domain aquired on [Registro.br](https://registro.br/)
-- [MIT License](https://opensource.org/licenses/MIT)
-
-Visit it @[hbrandao](http://hbrandao.com.br)!
+    0. hbrandao => bio; info; cv (hosted and git)
+    1. naeu rs => bio; info; ?port
+    2. duba => bio; info; ?galeria | carousel
+    3. bit castle => bio; info; ?galeria
