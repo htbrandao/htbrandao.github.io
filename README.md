@@ -8,4 +8,4 @@ Single page application:
 - Domain aquired on [Registro.br](https://registro.br/)
 - [MIT License](https://opensource.org/licenses/MIT)
 
-Visit it @[hbrandao](http://hbrandao.com)!
+Visit it @[hbrandao](http://hbrandao.com.br)!
