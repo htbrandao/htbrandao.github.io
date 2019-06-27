@@ -1,4 +1,4 @@
 TODO:
 
-    0. icon lattes photoshop
+    0. link hbrandao.com.br quebra no gitlab
     
