@@ -1,4 +1,4 @@
 TODO:
 
-    0. icons: email, url, linkedin, lattes
+    0. icon lattes photoshop
     
