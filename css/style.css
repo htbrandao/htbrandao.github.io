@@ -27,12 +27,14 @@ p {
 	max-width: 800px;
 	background: #f3f3f3;
 	margin: 30px auto;
+	border-radius: 5px 5px 5px 5px;
 }
 
 .mainDetails {
 	padding: 25px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
+	border-radius: 10px 10px 10px 10px;
 }
 
 #name h1 {
@@ -354,10 +356,15 @@ section:last-child {
 	animation-delay: 0, 2.5s;
 }
 
-/* body {
-    background: url("../media/woodTable.jpg") no-repeat center center fixed;
+/* .textureBG {
+    background: url("../media/bwMarbelPattern.jpg") no-repeat center center fixed;
     background-size: cover;
     width: 100%;
     height: 100%;
 
+  } */
+
+  /* .round {
+	  border: 1px solid blueviolet;
+	  border-radius: 1px;
   } */
