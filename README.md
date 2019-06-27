@@ -1,6 +1,6 @@
 # Personal static html page
 
-Single page application:
+Single (home) page project:
 
 - No back-end engine, only pure HTML and CSS
 - Using [Bootstrap](https://getbootstrap.com/)
