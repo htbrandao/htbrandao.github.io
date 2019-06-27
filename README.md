@@ -9,3 +9,10 @@ Single (home) page project:
 - [MIT License](https://opensource.org/licenses/MIT)
 
 Visit it @[hbrandao](http://hbrandao.com.br)!
+
+
+TODO:
+    
+    0.
+    1.
+    2.    
