@@ -1,8 +1,4 @@
-<<<<<<< HEAD:README.md
 # Personal static html page
-=======
-# TO DO
->>>>>>> dev:TODO.md
 
 Single (home) page project:
 
