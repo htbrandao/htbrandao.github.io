@@ -364,8 +364,6 @@ section:last-child {
 	padding-right: 5px
 }
 
-/* .lattesIcon {
-    width: 18px;
-	height: 18px;
-	padding-right: 5px
-} */
+.topMargin {
+	margin-top: 15px;
+}
