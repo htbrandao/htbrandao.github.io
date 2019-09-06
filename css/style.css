@@ -367,3 +367,8 @@ section:last-child {
 .topMargin {
 	margin-top: 15px;
 }
+
+.contactDetails {
+	font-size: 1em;
+	font-style: bold;
+}
