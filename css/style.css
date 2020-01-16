@@ -356,7 +356,7 @@ section:last-child {
 	animation-delay: 0, 2.5s;
 }
 
-/*  */
+/* hbrandao */
 
 .mediaIcon {
     width: 15px;
@@ -365,10 +365,29 @@ section:last-child {
 }
 
 .topMargin {
-	margin-top: 15px;
+	margin-top: 5px;
 }
 
 .contactDetails {
 	font-size: 1em;
 	font-style: bold;
+}
+
+.footerSize {
+	width: 100%;
+	height: 100%;
+}
+
+.openSourceIcon {
+    width: 35px;
+	height: 35px;
+	float: left;
+	padding-bottom: 5px;
+
+}
+
+.openSourceText {
+	font-size: 15px;
+	font-style: italic;
+	color: #fa8d28
 }
