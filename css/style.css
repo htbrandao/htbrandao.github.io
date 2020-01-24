@@ -394,12 +394,11 @@ section:last-child {
 	color: #fa8d28
 }
 
-.publicacoes 
+.publicacoes {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color:
-	#cf8a05;
+	color: #cf8a05;
 }
 
 .downBar {
