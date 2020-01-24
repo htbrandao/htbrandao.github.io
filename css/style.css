@@ -357,7 +357,9 @@ section:last-child {
 	animation-delay: 0, 2.5s;
 }
 
-/* hbrandao */
+/* ==================================================================================================================== */
+/* ===================================================== hbrandao ===================================================== */
+/* ==================================================================================================================== */
 
 .mediaIcon {
     width: 15px;
@@ -434,4 +436,16 @@ section:last-child {
 
 .paragraphSplit {
 	border-bottom: 1px solid #dedede;
+}
+
+.dataAtualizacao {
+	font-style: italic;
+	font-size: small;
+}
+
+.pgpText {
+	font-size: small;
+	text-align: justify;
+	padding: 15px;
+	margin: 15px;
 }
