@@ -431,3 +431,7 @@ section:last-child {
 .li a:hover {
 	background-color: #111111;
 }
+
+.paragraphSplit {
+	border-bottom: 1px solid #dedede;
+}
