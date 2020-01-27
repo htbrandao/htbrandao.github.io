@@ -1,6 +1,13 @@
-# [hbrandao](http://hbrandao.com.br/)!
+# TODO & FIXME
 
-TODO: HOME
+# TODO:
 
-FIXME: fix PGP position
-FIXME: fix publis position
+~HOME~
+
+id divs
+
+# FIXME:
+
+~fix PGP position~
+
+~fix publis position~
