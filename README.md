@@ -2,9 +2,10 @@
 
 # TODO:
 
-- HOME
+- ~~HOME~~
 - write id on divs
-- carrousel icons
+- ~~carrousel icons~~
+- head > favicon.ico
 
 # FIXME:
 
