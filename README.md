@@ -4,7 +4,7 @@
 
 - HOME
 - write id on divs
-- 
+- carrousel icons
 
 # FIXME:
 
