@@ -377,10 +377,15 @@ section:last-child {
 	font-style: bold;
 }
 
-.footerSize {
-	width: 100%;
-	height: 100%;
-	border-radius: 10px;
+.footer {
+	animation-name: reset, fade-in;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in;
+	padding: 25px 35px;
+	border-radius: 5px;
+	width: 90%;
+	max-width: 800px;
+	margin: 30px auto;
 }
 
 .openSourceIcon {

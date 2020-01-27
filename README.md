@@ -2,12 +2,12 @@
 
 # TODO:
 
-~HOME~
-
-id divs
+- HOME
+- write id on divs
+- 
 
 # FIXME:
 
-~fix PGP position~
-
-~fix publis position~
+- ~~fix PGP position~~
+- ~~fix publis position~~
+- 
