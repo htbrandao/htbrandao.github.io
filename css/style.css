@@ -362,10 +362,11 @@ section:last-child {
 /* ==================================================================================================================== */
 
 .mediaIcon {
-    width: 40px;
-	height: 40px;
-	padding-right: 5px;
-	padding-left: 5px;
+    width: 30px;
+	height: 30px;
+	/* padding-right: 5px; */
+	/* padding-left: 5px; */
+	padding: 5px;
 
 }
 
@@ -437,9 +438,6 @@ section:last-child {
 	text-decoration: none;
 }
 
-.li a:hover {
-	background-color: #111111;
-}
 
 .paragraphSplit {
 	border-bottom: 1px solid #dedede;
