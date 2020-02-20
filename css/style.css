@@ -365,6 +365,7 @@ section:last-child {
     width: 25px;
 	height: 25px;
 	padding: 2px;
+	text-decoration: none;
 
 }
 
@@ -451,4 +452,9 @@ section:last-child {
 	text-align: start;
 	padding: 15px;
 	border: 1px black solid;
+}
+
+.indexLink {
+	text-decoration: none;
+	color: black;
 }

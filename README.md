@@ -5,12 +5,13 @@
 - ~~HOME~~
 - write id on divs
 - ~~carrousel icons~~
-- head > favicon.ico
-- PT-BR / ENG-US
+- ~~head > favicon.ico~~
+- ? PT-BR => ENG-US
+- ~~land on home instead of cv~~
 
 
 # FIXME:
 
 - ~~fix PGP position~~
-- ~~fix publis position~~
+- ~~fix publish position~~
 - 
