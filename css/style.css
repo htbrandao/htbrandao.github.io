@@ -362,11 +362,9 @@ section:last-child {
 /* ==================================================================================================================== */
 
 .mediaIcon {
-    width: 30px;
-	height: 30px;
-	/* padding-right: 5px; */
-	/* padding-left: 5px; */
-	padding: 5px;
+    width: 25px;
+	height: 25px;
+	padding: 2px;
 
 }
 
