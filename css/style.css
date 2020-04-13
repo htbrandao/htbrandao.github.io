@@ -458,3 +458,9 @@ section:last-child {
 	text-decoration: none;
 	color: black;
 }
+
+
+.certificate {
+	color:blue;
+	font-size: small
+}
