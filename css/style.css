@@ -362,8 +362,8 @@ section:last-child {
 /* ==================================================================================================================== */
 
 .mediaIcon {
-    width: 25px;
-	height: 25px;
+    width: 30px;
+	height: 30px;
 	padding: 2px;
 	text-decoration: none;
 
@@ -457,6 +457,7 @@ section:last-child {
 .indexLink {
 	text-decoration: none;
 	color: black;
+	font-family: Arial, Helvetica, sans-serif
 }
 
 
