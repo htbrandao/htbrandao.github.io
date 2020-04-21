@@ -360,7 +360,8 @@ section:last-child {
 .mediaIcon {
     width: 25px;
 	height: 25px;
-	margin: 5px;
+	margin-top: 5px;
+	padding: 3px;
 	text-decoration: none;
 
 }
