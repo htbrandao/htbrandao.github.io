@@ -417,6 +417,7 @@ section:last-child {
 .ul {
 	list-style-type: none;
 	margin: 10px;
+	border-radius: 5px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333333;
