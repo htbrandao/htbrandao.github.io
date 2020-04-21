@@ -358,15 +358,9 @@ section:last-child {
 }
 
 .mediaIcon {
-<<<<<<< HEAD
     width: 25px;
 	height: 25px;
 	margin: 5px;
-=======
-    width: 30px;
-	height: 30px;
-	padding: 2px;
->>>>>>> master
 	text-decoration: none;
 
 }
