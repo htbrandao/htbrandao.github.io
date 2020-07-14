@@ -1,2 +1,13 @@
 node_modules/
-zip/startbootstrap-resume-gh-pages
+zip/startbootstrap-resume-gh-pages.
+..
+.browserslistrc
+.dockerignore
+.git
+.gitignore
+.gitlab-ci.yml
+.travis.yml
+package-lock.json
+package.json
+vendor/
+zip/
