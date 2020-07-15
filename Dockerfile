@@ -1,4 +1,9 @@
-FROM alpine:latest
-COPY . /usr/share/nginx/html
+FROM nginx:alpine
 
-# docker container rm -f hbrandao; docker run -p 8081:80 --name hbrandao -d hbrandao:2020-07-20; docker ps
+ADD . /usr/share/nginx/html
+
+RUN ls -R /usr/share/nginx/html
+
+# docker container rm -f home-page
+# docker build . -t home-page:latest
+# docker run -p 8080:80 --name home-page -d home-page:latest
