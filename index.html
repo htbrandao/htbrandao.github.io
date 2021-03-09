@@ -22,6 +22,16 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/academicons.min.css"/>
+  <link rel="stylesheet" href="css/langs.css"/>
+
+  <style>
+    .carousel-projs {
+      width:300px;
+      height: 500px !important;
+      border: 2px solid #bd5d381a;
+      border-radius: 12px;
+    }
+  </style>
 
 </head>
 
@@ -31,15 +41,14 @@
 
     <div class="row">
         <div class="col">
-          <a href="index-en.html"><img src="img/enus.svg" style="width: 25px; height: 25px; margin: -10px" title="EN-US"></a>
+          <a href="en.html"><img src="img/enus.svg" style="width: 25px; height: 25px; margin: -10px" title="EN-US"></a>
         </div>
         <div class="col">
-            <a href="/"><img src="img/ptbr.svg" style="width: 25px; height: 25px; margin: -10px" title="PT-BR"></a>
+            <a href="http://hbrandao.gitlab.io/hbrandao"><img src="img/ptbr.svg" style="width: 25px; height: 25px; margin: -10px" title="PT-BR"></a>
         </div>
     </div>
 
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <!-- <span class="d-block d-lg-none">Henrique Brandão</span> -->
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
@@ -85,13 +94,15 @@
           <span class="text-primary">Brandão</span>
         </h1>
         <div class="subheading mb-5">Brasília-DF, Brasil · 
-          <a href="mailto:name@email.com">hbrandao@pm.me</a>
+          <a href="mailto:hbrandao@pm.me">hbrandao@pm.me</a>
         </div>
-        <p class="lead mb-5">Graduação em Matemática, atuando na grande área da Matemática Discreta.
-          Ingressou no quadro de funcionários do Banco do Brasil em Maio de 2016 via concurso para a Diretoria de Tecnologia (DITEC).
-          Desde então atua desenvolvendo e implementando (DevOps) soluções utilizando Ciências de Dados e Aprendizado de Máquina. Atualmente desenvolve uma solução corporativa utilizando Teoria dos Grafos.
-          Escreve no <a href="https://hackernoon.com/u/hbrandao" target="_blank">Hacker Noon</a>.</p>
-        
+          <p class="lead mb-5">
+            Graduação em Matemática, atuando na grande área da Matemática Discreta.
+            Ingressou no quadro de funcionários do Banco do Brasil em Maio de 2016 via concurso para a Diretoria de Tecnologia (DITEC).
+            Desde então atua desenvolvendo e implementando (DevOps) soluções utilizando Ciências de Dados e Aprendizado de Máquina.
+            Atualmente desenvolve uma solução corporativa utilizando NER.
+            Escreve no <a href="https://hackernoon.com/u/hbrandao" target="_blank">Hacker Noon</a>.
+          </p>
           <div class="social-icons">
           <a href="https://www.linkedin.com/in/henrique-brand%C3%A3o-259a47134/" target="_blank" title="Linkedin">
             <i class="fab fa-linkedin-in"></i>
@@ -102,6 +113,9 @@
           <a href="https://github.com/htbrandao" target="_blank" title="GitHub">
             <i class="fab fa-github"></i>
           </a>
+          <a href="https://gitlab.com/hbrandao" target="_blank" title="GitLab">
+            <i class="fab fa-gitlab"></i>
+          </a>
           <a href="https://twitter.com/ht_brandao" target="_blank" title="Twitter">
             <i class="fab fa-twitter"></i>
           </a>
@@ -111,7 +125,7 @@
           <a href="https://hackernoon.com/u/hbrandao" target="_blank" title="Hacker Noon">
             <i class="fas fa-link"></i>
           </a>
-          <a href="templates/pgp.html" target="_blank" title="PGP">
+          <a href="pages/pgp.html" target="_blank" title="PGP">
             <i class="fas fa-user-lock"></i>
           </a>
         </div>
@@ -128,8 +142,10 @@
           <div class="resume-content">
             <h3 class="mb-0">Cientista de Dados</h3>
             <div class="subheading mb-3">Banco do Brasil</div>
-            <p>Desenvolvimento e implementação de soluções utilizando Ciências de Dados e Machine Learning,
-              atuando tanto com dados estruturados como não estruturados.</p>
+            <p>
+              Desenvolvimento e implementação de soluções utilizando Ciências de Dados e Machine Learning,
+              atuando tanto com dados estruturados como não estruturados.
+            </p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">Outubro 2016 - Presente</span>
@@ -153,40 +169,119 @@
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-        <div class="w-100">
-          <h2 class="mb-5">Projetos pessoais</h2>
-  
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Aqui na quadra, colaborativo</h3>
-              DESATIVADO
-              <div class="subheading mb-3"><a href="https://www.aquinaquadra.com.br" target="_blank">www.aquinaquadra.com.br</a></div>
-              <p>Ferramenta colaborativa para busca e divulgação de lojistas. Criada para auxiliar a retomada da atividade 
-                comercial após o período de distanciamento social em virtude da COVID-19, cujo escopo é o comércio local das
-                quadras residenciais da região do Plano Piloto em Brasília-DF.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Julho, 2020</span>
-            </div>
-          </div>
+      <div class="w-100">
+        <h2 class="mb-5">Projetos pessoais</h2>
 
-          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="resume-content">
-              <h3 class="mb-0">Proventos B3: Ativos no seu bolso!</h3>
-              DESATIVADO
-              <div class="subheading mb-3"><a href="https://www.proventosb3.com.br/" target="_blank">www.proventosb3.com.br</a></div>
-              <p>Aplicativo web para encotrar informações básicas sobre ativos (ações e fundos imobiliários) da bolsa de valores do Brasil (B3).<p>
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Agosto, 2020</span>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Data Science Shorcuts - DataSS <span class="badge badge-primary">Em construção</span></h3>
+            <div class="subheading mb-3"><a href="http://github.com/htbrandao/datass" target="_blank">www.github.com/htbrandao/datass</a></div>
+            <p>
+              Biblioteca em alto nível para análise de dados, não técnica, sem pretensão de competir com frameworks consolidados.
+              Trabalho em construção.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Junho, 2021</span>
+          </div>
+        </div>
+  
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Proventos B3: Ativos no seu bolso! <span class="badge badge-warning">Desativado</span></h3>
+            <div class="subheading mb-3"><a href="https://www.proventosb3.com.br/" target="_blank">www.proventosb3.com.br</a></div>
+            <p>
+              Aplicativo web para encotrar informações básicas sobre ativos (ações e fundos imobiliários) da bolsa de valores do Brasil (B3).
+            </p>
+            <div>
+              <div id="carouselPb3" class="carousel slide" data-ride="carousel" data-interval="1500" style="width: 300px;">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="filter: invert(100%)"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" style="filter: invert(100%)"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2" style="filter: invert(100%)"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3" style="filter: invert(100%)"></li>
+                </ol>
+                <div class="carousel-inner carousel-projs">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/projs/pb3/sk_home.png" alt="Home">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/projs/pb3/sk_results.png" alt="Resultados">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/projs/pb3/sk_results-2.png" alt="Cadastro">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/projs/pb3/sk_url.png" alt="URL">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselPb3" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(100%)"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselPb3" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(100%)"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
             </div>
           </div>
-  
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Agosto, 2020</span>
+          </div>
         </div>
-      </section>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Aqui na quadra, colaborativo <span class="badge badge-warning">Desativado</span></h3>
+            <div class="subheading mb-3"><a href="https://www.aquinaquadra.com.br" target="_blank">www.aquinaquadra.com.br</a></div>
+            <p>
+              Ferramenta colaborativa para busca e divulgação de lojistas. Criada para auxiliar a retomada da atividade 
+              comercial após o período de distanciamento social em virtude da COVID-19, cujo escopo é o comércio local das
+              quadras residenciais da região do Plano Piloto em Brasília-DF.
+            </p>
+            <div>
+              <div id="carouselAnqc" class="carousel slide" data-ride="carousel" data-interval="1500" style="width: 300px;">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="filter: invert(100%)"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1" style="filter: invert(100%)"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2" style="filter: invert(100%)"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3" style="filter: invert(100%)"></li>
+                </ol>
+                <div class="carousel-inner carousel-projs">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/projs/anqc/sk_home.png" alt="Home">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/projs/anqc/sk_results.png" alt="Resultados">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/projs/anqc/sk_cadastro.png" alt="Cadastro">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="img/projs/anqc/sk_url.png" alt="URL">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselAnqc" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true" style="filter: invert(100%)"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselAnqc" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true" style="filter: invert(100%)"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Julho, 2020</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
   
-      <hr class="m-0">
+    <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
