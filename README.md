@@ -1,9 +1,7 @@
-# Henrique Brandão
+# Henrique Brandão, Brasília-DF, Brazil
 
 ## https://htbrandao.github.io/
 
-## https://hbrandao.gitlab.io/hbrandao/
-
 ## Machine Learner
 
-### Talk data to me
+## Talk data to me
